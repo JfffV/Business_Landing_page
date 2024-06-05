@@ -6,6 +6,7 @@
     height: 930px;
     width: 100%;
 }
+
 header {
     height: 156px;
     width: 100%;
@@ -33,25 +34,146 @@ header {
 .header_link {
     font-weight: 400;
     font-size: 15px;
+    line-height: 28px;
     color: #fff;
 }
 
-.header_title{
+.header_title {
     color: #fff;
     text-decoration: none;
 }
 
-.social_icons{
+.social_icons {
     display: flex; 
     gap: 44px;
 }
 
-.header_logo{
+.header_logo {
     width: 186px;
     height: 58px;
 }
 
-.social_icon{
+.social_icon {
     width: 32px;
     height: 32px;
+}
+
+.best_product {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 80px 0px 80px 0px;
+    gap: 40px;
+}
+
+.best_product__container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.product__title {
+    font-size: 74px;
+    color: #ffffff;
+    line-height: 84px;
+    white-space: pre-line;
+    text-align: center;
+    font-weight: 700;
+    padding: 10px;
+    gap: 10px;
+}
+
+.product__text {
+    font-size: 28px;
+    line-height: 40px;
+    font-weight: 400;
+    color: #ffffff;
+    white-space: pre-line;
+    text-align: center;
+}
+
+.btn-primary {
+    width: 236px;
+    min-height: 52px;
+    border-radius: 35px;
+    padding: 20px;
+    gap: 10px;
+    background-color: #2091F9;
+}
+
+.btn-primary:hover {
+    color: #fff;
+    background-color: #2091F9;
+    border-color: #2091F9;
+}
+
+.features {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 120px;
+}
+
+.feature__container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.feature__title {
+    font-size: 40px;
+    line-height: 55px;
+    font-weight: 400;
+    color: #252B42;
+}
+
+.feature__text {
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 40px;
+    color: #374754;
+    white-space: pre-line;
+    text-align: center;
+}
+
+.feature_description__container {
+    display: flex;
+    align-items: stretch;
+    flex-direction: row;
+    gap: 52px;
+    padding-top: 80px;
+}
+
+.feature__description {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 255px;
+    gap: 10px;
+}
+
+.feature__description__title {
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 700;
+    color: #252B42;
+    white-space: pre-line;
+    text-align: center;
+   
+}
+
+.feature__description__text {
+    font-size: 18px;
+    line-height: 25px;
+    font-weight: 400;
+    color: #374754;
+    white-space: pre-line;
+    text-align: center;
+}
+
+.feature__description__icon {
+    width: 61px;
+    height: 61px;
 }
