@@ -2,17 +2,17 @@
     background-image: url("img/header_background.png");
     background-repeat: no-repeat;
     background-size: cover;
-    height: 930px;
     width: 100%;
+    height: 930px;
 }
 
 header {
-    height: 156px;
-    width: 100%;
     display: flex;
     justify-content: space-evenly;
     flex-direction: row;
     align-items: center;
+    height: 156px;
+    width: 100%;
 }
 
 .header__nav {
@@ -31,13 +31,11 @@ header {
 }
 
 .header__link {
-    font-weight: 400;
     font-size: 15px;
     line-height: 28px;
+    font-weight: 400;
     color: #fff;
 }
-
-
 
 .social__icons {
     display: flex; 
@@ -71,11 +69,11 @@ header {
 
 .product__title {
     font-size: 74px;
-    color: #ffffff;
     line-height: 84px;
+    font-weight: 700;
+    color: #ffffff;
     white-space: pre-line;
     text-align: center;
-    font-weight: 700;
     padding: 10px;
     gap: 10px;
 }
@@ -106,7 +104,6 @@ header {
 
 .feature {
     display: flex;
-    justify-content: center;
     align-items: center;
     flex-direction: column;
     padding-top: 120px;
@@ -127,8 +124,8 @@ header {
 
 .feature__text {
     font-size: 28px;
-    font-weight: 400;
     line-height: 40px;
+    font-weight: 400;
     color: #374754;
     white-space: pre-line;
     text-align: center;
@@ -136,10 +133,10 @@ header {
 
 .feature__description-container {
     display: flex;
-    flex-direction: row;
     align-items: center;
-    gap: 52px;
+    flex-direction: row;
     padding-top: 80px;
+    gap: 52px;
 }
 
 .feature__description {
@@ -147,6 +144,7 @@ header {
     align-items: center;
     flex-direction: column;
     width: 255px;
+    gap: 10px;
 }
 
 .feature__description-title {
@@ -164,7 +162,6 @@ header {
     line-height: 25px;
     font-weight: 400;
     color: #374754;
-   
     text-align: center;
 }
 
